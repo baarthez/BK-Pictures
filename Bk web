@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BK Pictures</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BK Pictures</h1>
+    <p>Capturing moments through lens</p>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We create all kinds of photography and videography—portraits, weddings, events, products, and more. BK Pictures is dedicated to turning every moment into art.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Event Photography & Videography</li>
+      <li>Wedding Shoots</li>
+      <li>Portrait Sessions</li>
+      <li>Product Photography</li>
+      <li>Drone Videography</li>
+    </ul>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Gallery coming soon!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@bkpictures.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+    <p>Instagram: @bkpictures</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BK Pictures. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+}
